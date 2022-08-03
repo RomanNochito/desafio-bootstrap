@@ -23,7 +23,7 @@ header nav ul li a {
   color: darkgray;
   font-size: 20px;
   font-weight: 900;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   display: block;
   padding: 5px 70px;
   background-color: rgba(128, 128, 128, 0.233);
@@ -70,12 +70,11 @@ header nav ul li {
 .hero p {
   background-color: rgba(128, 128, 128, 0.233);
 }
-.accordion-item{
+.accordion-item {
   background-color: rgba(128, 128, 128, 0.233);
 }
-.accordion-button{
+.accordion-button {
   background-color: rgba(128, 128, 128, 0.233);
-
 }
 .trabajos {
   color: darkgray;
@@ -152,26 +151,25 @@ header nav ul li {
 .pie {
   text-align: center;
 }
-.pie p{
+.pie p {
   margin: 0px;
   padding: 25px;
 }
 
 /*-------PRODUCTOS-------*/
-.bg-light{
+.bg-light {
   padding: 0px;
   margin: 0px;
-  
 }
 
 /*-------SERVICIOS-------*/
-.trabajos-grid h2{
+.trabajos-grid h2 {
   text-align: center;
   background-color: black;
   color: darkgray;
   margin: 0px;
   font-size: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .grid-galeria div img {
   width: 100%;
@@ -208,11 +206,10 @@ header nav ul li {
   width: 100%;
   text-align: center;
 }
-.carousel-item img{
+.carousel-item img {
   width: 100%;
   height: 300px;
- object-fit: cover;
-  
+  object-fit: cover;
 }
 
 /*-------ACERCA DE NOSOTTROS-------*/
@@ -271,8 +268,6 @@ header nav ul li {
 }
 
 /*------media query-------*/
-
-
 
 @media screen and (max-width: 1345px) {
   header nav {
@@ -341,21 +336,18 @@ header nav ul li {
 .grid-inicio a {
   bottom: 0;
 }
-.grid-inicio h3{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+.grid-inicio h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
   padding: 10px;
   margin: 0px;
 }
-.container-fluid{
+.container-fluid {
   background-color: black;
   color: darkgrey;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 25px;
   padding: 20px;
 }
-
-
-
 
 /*---CONTACTO----*/
 @media screen and (max-width: 1000px) {
@@ -364,9 +356,9 @@ header nav ul li {
   }
 }
 
-.grid-index div img{
+.grid-index div img {
   transition: 1s;
 }
-.grid-index div img:hover{
+.grid-index div img:hover {
   transform: scale(0.9);
 }
