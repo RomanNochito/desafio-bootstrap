@@ -1,0 +1,18 @@
+   
+   
+ //*maps
+
+$boton:(
+  bg-boton: black,
+  border-boton: 2px solid grey,
+  color-texto: darkgrey,
+);
+
+.btn{
+  background-color: map-get($boton, bg-boton );
+  border: map-get($boton , border-boton );
+  color: map-get($boton, color-texto );
+
+}
+
+        

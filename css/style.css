@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box; }
 
+.btn {
+  background-color: black;
+  border: 2px solid grey;
+  color: darkgrey; }
+
 header {
   background-color: rgba(128, 128, 128, 0.233); }
   header nav .titulo {
@@ -17,14 +22,15 @@ header {
     padding-top: 60px;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: oblique;
-    margin-bottom: 5px; }
+    margin-bottom: 0px; }
   header nav ul {
     list-style: none;
     background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0px; }
+    margin: 0px;
+    padding-top: 5px; }
     header nav ul li {
       display: inline-block; }
       header nav ul li a {
@@ -54,7 +60,7 @@ header h1 {
   padding-top: 60px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: oblique;
-  margin-bottom: 5px; }
+  margin-bottom: 0px; }
 
 main .hero {
   width: 100%;
@@ -171,7 +177,11 @@ main .hero .accordion-item {
   background-color: rgba(128, 128, 128, 0.233); }
 
 main .hero .accordion-button {
-  background-color: rgba(128, 128, 128, 0.233); }
+  background-color: rgba(128, 128, 128, 0.233);
+  color: white; }
+
+main .hero .accordion-body {
+  color: white; }
 
 .footer {
   background-color: black;
@@ -230,3 +240,26 @@ main .hero .accordion-button {
 @media screen and (max-width: 1000px) {
   .container {
     flex-direction: column; } }
+
+.btn {
+  background-color: black;
+  border: 2px solid grey;
+  color: darkgrey; }
+
+.col-lg-6 {
+  display: flex;
+  flex-direction: column; }
+
+.col-lg-6 {
+  padding-top: 15px;
+  font-size: 25px;
+  align-items: center;
+  height: 300px; }
+
+header nav ul {
+  list-style: none;
+  margin: 0px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }

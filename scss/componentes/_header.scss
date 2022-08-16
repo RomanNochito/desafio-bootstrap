@@ -1,4 +1,6 @@
 @import"../base/variables";
+@import"../base/maps";
+
 header{
     background-color:$color-fondo;
     nav{
@@ -13,17 +15,17 @@ header{
             padding-top: 60px;
             font-family: Georgia, "Times New Roman", Times, serif;
             font-style: oblique;
-            margin-bottom: 5px;
+            margin-bottom: 0px;
 
         }
         ul{
-        
         list-style: none;
         background-color: black;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         margin: 0px;
+        padding-top: 5px;
         li{
             display: inline-block; 
             a{
@@ -44,9 +46,9 @@ header{
         
         }
         
-    }
+     }
     
-}
+    }
 }
 
     /*-------PRODUCTOS-------*/
@@ -63,7 +65,7 @@ header{
             padding-top: 60px;
             font-family: Georgia, "Times New Roman", Times, serif;
             font-style: oblique;
-            margin-bottom: 5px;
+            margin-bottom: 0px;
 
         }
     }

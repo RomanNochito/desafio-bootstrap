@@ -2,16 +2,47 @@
 @import"./componentes/header";
 @import"./componentes/main";
 @import"./componentes/footer";
-@import"./componentes/media"
-
-
-    
-
+@import"./componentes/media";
+@import"./base/maps";
 
     
-    
+
+ //*extends.
+
+ %flex{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .col-lg-6{
+    padding-top: 15px;
+    font-size: 25px;
+    align-items: center;
+    height: 300px;
+    @extend %flex
+    }
+
   
-   
-    
 
+ @mixin flex( $flex, $row, $justify) {
+    display: $flex;
+    flex-direction: $row;
+    justify-content: $justify;
     
+}
+header{
+    nav{
+        ul{ list-style: none;
+            margin: 0px;
+            background-color: black;
+            @include flex(flex, row, space-around )
+        }
+    }
+}
+
+
+
+
+
+ 
+
