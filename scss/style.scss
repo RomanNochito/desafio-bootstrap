@@ -22,6 +22,7 @@
     @extend %flex
     }
 
+ 
   
 
  @mixin flex( $flex, $row, $justify) {
@@ -30,15 +31,7 @@
     justify-content: $justify;
     
 }
-header{
-    nav{
-        ul{ list-style: none;
-            margin: 0px;
-            background-color: black;
-            @include flex(flex, row, space-around )
-        }
-    }
-}
+
 
 
 
